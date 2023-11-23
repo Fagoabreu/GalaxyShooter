@@ -100,7 +100,7 @@ public class Player : MonoBehaviour, IShipActions
     private void Movement()
     {
         transform.Translate(_direction * (_isSpeedBoostActive ? _speed * 2f : _speed) * Time.deltaTime);
-
+        /*
         float posY = transform.position.y;
         if (posY > 0)
         {
@@ -122,6 +122,7 @@ public class Player : MonoBehaviour, IShipActions
         }
 
         transform.position = new Vector3(posX, posY, 0);
+        */
     }
 
     private void Shoot()

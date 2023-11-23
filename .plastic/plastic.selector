@@ -1,0 +1,3 @@
+rep "Galaxy Shooter@Fabio_Gomes_de_Abreu@cloud"
+  path "/"
+    smartbranch "/main"
